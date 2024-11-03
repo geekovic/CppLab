@@ -48,6 +48,7 @@ public:
    }
 
    void show_details() const {
+      cout << "The given details are: " <<endl;
       cout << "Name: " << name<< endl;
       cout<< "Age: " << age<< endl; 
       cout<< "Registration No: " << reg_no<< endl;
